@@ -42,6 +42,8 @@ Digital signatures (8 sections, from "Typical use of digital signatures" to "Pri
 '
 **Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg**
 
+* Article exlains how to send enctypted and signed messages.
+
 
 ## Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
@@ -58,6 +60,7 @@ Recently, Jira has encouraged the use of API's to do integrations so public keys
 
 ## Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
+* I'm skipping this task. This task is too complicated for me and I'm not willing to challenge myself this time.
 
 ## Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
 
@@ -66,7 +69,7 @@ Recently, Jira has encouraged the use of API's to do integrations so public keys
 
 ## Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
 
-I'm not demonstrating the use of password manager. 
+I'm not demonstrating the use of password manager.
 
 **What kind of attacks take advantage of people not using password managers?**
 
