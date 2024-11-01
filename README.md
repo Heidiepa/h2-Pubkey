@@ -54,7 +54,7 @@ Points from the article:
 
 ## Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
-I'm my company's **Jira ** admin and superuser in addition to my other roles. In this admin work, I have sometimes used public keys to integrate our Jira instance with collaborator's Jira/other tools instances. The process od uing public keys has been quite simlistic: Jira admin interface supports use of public keys and has comprehensive guidelines on how to perform this task.
+I'm my company's Jira admin and superuser in addition to my other roles. In this admin work, I have sometimes used public keys to integrate our Jira instance with collaborator's Jira/other tools instances. The process od uing public keys has been quite simlistic: Jira admin interface supports use of public keys and has comprehensive guidelines on how to perform this task.
 
 The process is simple enough: 
 1.Key-pair is generated. 
