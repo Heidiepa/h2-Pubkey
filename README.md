@@ -1,24 +1,60 @@
 # h2-Pubkey
 
 ## Read and summarize (with some bullet points)
-€ Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks, sections
+**€ Schneier 2015: Applied Cryptography: Chapter 2 - Protocol Building Blocks, sections
 2.5 Communications Using Public-Key Cryptography
 2.6 Digital Signatures
-2.7 Digital Signatures With Encryption
+2.7 Digital Signatures With Encryption**
 
-## 2.8 Random And Pseudo-Random-Sequence Generation
-€ Rosenbaum 2019: Grokking Bitcoin:
+I was not able to do this task as assigned as the book selected for reference material is not aviailable through the web site. Despite multiple attempts to start trial on https://www.oreilly.com/start-trial/, the site continued to fail my registration.
+
+Luckily the heroes od Internet Archive delivered some version of the book and my takeouts are the following. The text was super difficult for me to understand so my summery is bit lacklustery. Practically I read the words but I did not understand majority of them.
+
+2.5 
+* Public-key cryptography is a way to encrypt sensitive messages. 
+* Two Keys are created in publi-key encryption: public and private. Anyone with public key can encrypt the message but only private key can decrypt the message.
+* These two keys have different levels of protection: public is simple and private is complex.
+* Hybrid cryptosystems are practical implementations of public-key cryptography and can be used to ensure more secure ways to encypt messages. The secret of protection is keys that are valid for certain period and will change after used.
+* Merkle’s Puzzles is an implementation of a public-key cryptosystem model. It allows two parties to share secrets by messaging. This can happen even though the parties may not have secrets in common beforehand.
+
+2.6
+* A digital signature is an electronic stamp of authentication. Digital signatures are used for encrypted of digital information such as email messages, macros, or electronic documents.
+* There are multiple examples on how these signatures work and encypt content.
+* Digital signatures can be forged/staged but with technology it is made more difficult.
+
+2.7
+* To achieve best level of security, digital signatures can be combined with public-key cryptography. 
+
+Would is be possible for us to have materials that are accssible without having to log in to whatever system? From cyber security perspective, it is not the best idea to have to give out your information to whatever sites.
+
+2.8 Random And Pseudo-Random-Sequence Generation
+
+* Random-number generators don't produce a random sequences as that is impossible.
+* Pseudo-random-sequence generators work and those are possible for computers. Pseudo-random sequence looks random enough so it passes verifications.
+* Cryptographic applications work with pseudo-random-sequence generators. Pseudo-random-sequence must also be secure enough and resistant to break-ins.
+
+
+**€ Rosenbaum 2019: Grokking Bitcoin:
 Chapter 2. Cryptographic hash functions and digital signatures:
-Digital signatures (8 sections, from "Typical use of digital signatures" to "Private key security")
+Digital signatures (8 sections, from "Typical use of digital signatures" to "Private key security")**
+
+
 '
 ## Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
 
 
 ## Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
 
-I'm my company's **Jira ** admin and superuser in addition to my other roles. In this admin work, I have sometimes used public keys to integrate our Jira instance with collaborator's Jira/other tools instances. The process od uing public keys has been quite simlistic: Jira admin interface supports use of public keys and has comprehensive guidelines on how to perform this task.(Atlassian)
+I'm my company's **Jira ** admin and superuser in addition to my other roles. In this admin work, I have sometimes used public keys to integrate our Jira instance with collaborator's Jira/other tools instances. The process od uing public keys has been quite simlistic: Jira admin interface supports use of public keys and has comprehensive guidelines on how to perform this task.
 
-Recently, Jira has encouraged the use of API's to do integrations so public keys are not that often used anymore.
+The process is simple enough: 
+1.Key-pair is generated. 
+2. Public key is extracted in PEM format
+3. Public Key is moved to text editor
+4. Finally, key is copied into JIRA
+(Atlassian)
+
+Recently, Jira has encouraged the use of API's to do integrations so public keys are not that often used anymore. 
 
 ## Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
