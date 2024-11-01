@@ -42,7 +42,7 @@ Digital signatures (8 sections, from "Typical use of digital signatures" to "Pri
 '
 **Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg**
 
-* Article exlains how to send enctypted and signed messages.
+* Article exlains how to send enctypted and signed messages. Article is not very approacable and I had hard time in reading it. I don't undestardand where to start without grapic interface so I will skip whatever was required to be done in this article.
 
 
 ## Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
@@ -60,9 +60,21 @@ Recently, Jira has encouraged the use of API's to do integrations so public keys
 
 ## Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
-* I'm skipping this task. This task is too complicated for me and I'm not willing to challenge myself this time.
+* I'm skipping this task. This task is too complicated for me and I'm not willing to challenge myself this time. I have no issues with using graphica interfaces such ad Outlook encryption or even JIra encyrption which is more light-weight but my brain does wrap aroud this task.
 
 ## Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
+
+Using Outlook encryption to demonstate practical, real-life encyption example.
+
+Outlook has built-in encryption fetures. Encrypting an email message in Outlook means it's converted from readable plain text into scrambled cipher text. Only the recipient who has the private key that matches the public key used to encrypt the message can decipher the message for reading. (Micorosoft)
+
+Outlook encryption is very simple.
+* from graphical interface, Options should be selected, and then Encrypt.
+* Outlook requires user to select encryption type such as Encrypt-Only or Do Not Forward. Do Not Forward means that message stays encrypted within Microsoft 365 and can’t be copied or forwarded. Encrypting means that the message stays encrypted and doesn’t leave Microsoft 365. If recipient has other email client, temporary passcode can be downloaded to open message and contents. Default setting uses Outlook.com's opportunistic Transport Layer Security (TLS) to encrypt the connection with a recipient’s email provider.
+* Compose email, add contents, ensure that encyrption is on. Then choosing Send will send the encyrpted message to other people.
+
+* Outlook encyrption is very user-friendly and simple to use. It could have even better graphical interface but it does it's thing.
+
 
 ## Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
 
