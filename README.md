@@ -85,8 +85,9 @@ Outlook encryption is very simple.
 
 ## Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory maliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
 
-*PGP prevents Eve from eavesdropping as it protects data with keys. I don't know what keys and what flags, this is too complex for me.
-*PGP blocks Mallory from modifying data. I don't know what keys and what flags, this is too complex for me.
+* PGP prevents Eve from eavesdropping as it protects data with keys. I don't know what keys and what flags, this is too complex for me.
+
+* PGP blocks Mallory from modifying data. I don't know what keys and what flags, this is too complex for me.
 
 
 ## Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
