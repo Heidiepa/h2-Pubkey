@@ -40,7 +40,7 @@ Digital signatures (8 sections, from "Typical use of digital signatures" to "Pri
 
 
 '
-## Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
+**Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg**
 
 
 ## Pubkey today. Explain how you have used public key cryptography today or yesterday, outside of this homework. In addition to naming the system, identify how different parties use keys in different steps of the system. (Answering this question likely requries finding sources on your own. This subtask does not require tests with a computer.)
@@ -66,6 +66,21 @@ Recently, Jira has encouraged the use of API's to do integrations so public keys
 
 ## Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
 
+I'm not demonstrating the use of password manager. 
+
+**What kind of attacks take advantage of people not using password managers?**
+
+* People who use too weak passwords (e.g. passwords that are rememberable for human mind), experience more issues as cybercriminals can crack weak passwords in seconds. If the password is more complex, containing numbers, symbols and uppercase and lowercase letters, the time needed to break it jumps to 400 years.(Kate O'Flaherty)
+* Password manager apps can resolve this problem by creating long and complex credentials for various services. (Kate O'Flaherty)
+* Password managers also remove the theart that is using the same password in multiple services. If same password is used in multiple services, that makes it easier for hackers. It is better to use passwrod manager that is being hacked into than to have multiple account with same password.(Kate O'Flaherty)
+
+* Different attack types towards users not using password managers are for example:
+  **Bruteforcing something open. It is easier if the password is not complex. (Onelogin)
+  **Dictionary attack in which attacker tries to use common words to open your account. (Onelogin)
+  ** Credential stuffing where attackers try to use same passwords for multiple sites. (Onelogin)
+  ** Normal Phishing
+  
+* 
 
 ## Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
 
@@ -73,5 +88,11 @@ Will do referrals. o7
 
 ## Sources
 
-Atlassian 7 June 2017. How to generate public key to application link 3rd party applications 
+Atlassian. 7 June 2017. How to generate public key to application link 3rd party applications 
 https://confluence.atlassian.com/jirakb/how-to-generate-public-key-to-application-link-3rd-party-applications-913214098.html 
+
+Kate O'Flaherty. 19 Mar 2022. Not using a password manager? Here’s why you should be…
+https://www.theguardian.com/technology/2022/mar/19/not-using-password-manager-why-you-should-online-security
+
+Onelogin. Six Types of Password Attacks & How to Stop Them
+https://www.onelogin.com/learn/6-types-password-attacks
