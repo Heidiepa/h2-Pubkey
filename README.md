@@ -6,7 +6,7 @@
 2.6 Digital Signatures
 2.7 Digital Signatures With Encryption**
 
-I was not able to do this task as assigned as the book selected for reference material is not aviailable through the web site. Despite multiple attempts to start trial on https://www.oreilly.com/start-trial/, the site continued to fail my registration.
+I was not able to do this task as assigned as the book selected for reference material is not available through the web site. Despite multiple attempts to start trial on https://www.oreilly.com/start-trial/, the site continued to fail my registration.
 
 Luckily the heroes od Internet Archive delivered some version of the book and my takeouts are the following. The text was super difficult for me to understand so my summery is bit lacklustery. Practically I read the words but I did not understand majority of them.
 
@@ -38,8 +38,15 @@ Would is be possible for us to have materials that are accssible without having 
 Chapter 2. Cryptographic hash functions and digital signatures:
 Digital signatures (8 sections, from "Typical use of digital signatures" to "Private key security")**
 
+I was not able to do this task as assigned as the book selected for reference material is not available through the web site. Despite multiple attempts to start trial on https://www.oreilly.com/start-trial/, the site continued to fail my registration.
 
-'
+Luckily, Kalle Rosenbaum seems to have added his book into Github: https://github.com/kallerosenbaum/grokkingbitcoin/blob/master/ch02-hash-functions-and-signatures.adoc  so I was able to access the material to certain extent?
+
+Points from the article:
+* Typical use of digital signatures descibes the actions related to using digital signatures. The process works so that private key ans public keys are created for signed feature is. Then public key is handed over to receiver. Then, signed feature is protected with private key. Receiver then accesses the signed feature by using public key. If ther has been chnages in signature, public key will fail.
+* Improving cookie token security describes how to cookies should be used to increase security though key pairs and how the process works.
+* Private key security descibes how cookie tokens are managed through private key and how losing the key would be detrimental. The text also thinks about differences on storing private key (online vs offline, clearteaxt vs encryption and splitting the key or storing it as a whole.
+
 **Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg**
 
 * Article exlains how to send enctypted and signed messages. Article is not very approacable and I had hard time in reading it. I don't undestardand where to start without grapic interface so I will skip whatever was required to be done in this article.
@@ -60,7 +67,7 @@ Recently, Jira has encouraged the use of API's to do integrations so public keys
 
 ## Messaging. Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
 
-* I'm skipping this task. This task is too complicated for me and I'm not willing to challenge myself this time. I have no issues with using graphica interfaces such ad Outlook encryption or even JIra encyrption which is more light-weight but my brain does wrap aroud this task.
+* I'm skipping this task. This task is too complicated for me and I'm not willing to challenge myself this time. I have no issues with using graphical interfaces such ad Outlook encryption or even JIra encyrption which is more light-weight but my brain does wrap aroud this task.
 
 ## Other tool. Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
 
@@ -71,12 +78,15 @@ Outlook has built-in encryption fetures. Encrypting an email message in Outlook 
 Outlook encryption is very simple.
 * from graphical interface, Options should be selected, and then Encrypt.
 * Outlook requires user to select encryption type such as Encrypt-Only or Do Not Forward. Do Not Forward means that message stays encrypted within Microsoft 365 and can’t be copied or forwarded. Encrypting means that the message stays encrypted and doesn’t leave Microsoft 365. If recipient has other email client, temporary passcode can be downloaded to open message and contents. Default setting uses Outlook.com's opportunistic Transport Layer Security (TLS) to encrypt the connection with a recipient’s email provider.
-* Compose email, add contents, ensure that encyrption is on. Then choosing Send will send the encyrpted message to other people.
+* Compose email, add contents, ensure that encyrption is on. Then choosing Send will send the encyrpted message to other people. (Microsoft)  
 
-* Outlook encyrption is very user-friendly and simple to use. It could have even better graphical interface but it does it's thing.
+* Outlook encyrption is very user-friendly and simple to use. It could have even better graphical interface and it could be even smoother visually (as well as more popping) but it does it's thing.
 
 
-## Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory malliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
+## Eve and Mallory. In many crypto stories, Eve is a passive eavesdropper, listening on the wire. Mallory maliciously modifies the messages. Explain how PGP protects against Mallory and Eve. Be specific what features, which use of keys and which flags in the command are related to this protection. (This subtasks does not require tests with a computer)
+
+*PGP prevents Eve from eavesdropping as it protects data with keys. I don't know what keys and what flags, this is too complex for me.
+*PGP blocks Mallory from modifying data. I don't know what keys and what flags, this is too complex for me.
 
 
 ## Password management. Demonstrate use of a password manager. What kind of attacks take advantage of people not using password managers? (You can use any password manager, some examples include pass and KeePassXC.)
@@ -93,9 +103,8 @@ I'm not demonstrating the use of password manager.
   **Bruteforcing something open. It is easier if the password is not complex. (Onelogin)
   **Dictionary attack in which attacker tries to use common words to open your account. (Onelogin)
   ** Credential stuffing where attackers try to use same passwords for multiple sites. (Onelogin)
-  ** Normal Phishing
+  ** Normal Phishing done with traditional tools such as emails, false links and other. (Onelogin)  
   
-* 
 
 ## Refer to sources. Verify each homework report (this and the earlier ones) refers to sources. Every homework report should refer to this task page. It should also have references to any other source used, such as web pages, LLMs, man pages, other reports... References are mandatory, and must be present in every report. (This subtask does not need a report, you can just do it and write "Done." as the answer for this subtask.)
 
@@ -111,3 +120,6 @@ https://www.theguardian.com/technology/2022/mar/19/not-using-password-manager-wh
 
 Onelogin. Six Types of Password Attacks & How to Stop Them
 https://www.onelogin.com/learn/6-types-password-attacks
+
+Microsoft. Learn about encrypted messages in Outlook.com
+https://support.microsoft.com/en-us/office/learn-about-encrypted-messages-in-outlook-com-3521aa01-77e3-4cfd-8a13-299eb60b1957 
